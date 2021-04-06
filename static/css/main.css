@@ -1,0 +1,14 @@
+body {
+    background-image: url('../Images/space2.png');
+    height: 500px;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.jupiter {
+    margin-left: 300px;
+}
+
+.earth{
+    margin-bottom: 100px;
+}
