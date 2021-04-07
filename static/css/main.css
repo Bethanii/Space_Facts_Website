@@ -1,14 +1,41 @@
 body {
-    background-image: url('../Images/space2.png');
-    height: 500px;
+    background-image: url('../Images/space.png');
+    background-position: fixed;
+    background-size: cover;
     background-repeat: no-repeat;
-    color: white;
 }
 
-.jupiter {
-    margin-left: 300px;
+.solarsystem{
+    display: grid;
+    grid-template-columns: 100px 100px; 
+    grid-template-rows: 100px;
+    grid-column-gap: 5px;
+}
+
+.sun {
+    margin-top: 175px;
+    margin-left: -05%;
 }
 
 .earth{
-    margin-bottom: 100px;
+    margin-left: 275px;
+    margin-top: 217px;
+}
+
+.mars{
+    margin-left: 50px;
+}
+
+.mercury{
+    margin-left: 100px;
+    margin-top: 347px;
+}
+
+.uranus{
+    margin-left: 200px;
+}
+
+.venus{
+    margin-left: 259px;
+    margin-top: 225px;
 }

@@ -7,16 +7,52 @@
     <title>Bethany Space</title>
 </head>
 
+
+
 <body>
-    <h1>Spacey Space!</h1>
-    <div class='jupiter'>  
-        <img src="{{url_for('static',filename='Images/jupiter.png')}}" 
+   <header>Spacey Space!</header>
+   <div class= 'solarsystem'>
+    <div class='sun solarsystem'>  
+            <img src="{{url_for('static',filename='Images/sun.png')}}" 
+            width='340px'
+            height= '390px'/>
+        </div>
+
+        <div class='mercury solarsystem'>  
+            <img src="{{url_for('static',filename='Images/mercury.png')}}" 
+            width='90px'
+            height= '90px'/>
+        </div>
+
+        <div class='venus solarsystem'>  
+            <img src="{{url_for('static',filename='Images/venus.png')}}" 
+             width='210px'
+             height='125px'/>
+        </div>
+
+        <div class='earth solarsystem'>  
+            <img src="{{url_for('static',filename='Images/earth.png')}}" 
+             width='280px'
+             height='155px'/>
+        </div>
+
+    </div>
+    <!-- <div class='mars'>  
+        <img src="{{url_for('static',filename='Images/mars.png')}}" 
          width='10%'/>
     </div>
 
-    <div class='earth'>  
-        <img src="{{url_for('static',filename='Images/earth.png')}}" 
+    <div class='mercury'>  
+        <img src="{{url_for('static',filename='Images/mercury.png')}}" 
          width='10%'/>
     </div>
+
+    <div class='uranus'>  
+        <img src="{{url_for('static',filename='Images/uranus.png')}}" 
+         width='10%'/>
+    </div>
+
+    -->
+
 </body>
 </html>
