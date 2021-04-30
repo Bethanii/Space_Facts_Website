@@ -4,7 +4,9 @@
 <head>
     <meta charset="utf-8" />
     <link rel='stylesheet' href="{{url_for('static', filename='css/main.css')}}">
-    
+    <style>
+
+    </style>
     <title>Space Facts</title>
 </head>
 
@@ -28,85 +30,75 @@
         <div class="container addspace"> 
 
             <!-- SUN -->
-            <div class= "sun">
+            <div class= "asun item">
                 <a href="#open-modal">
-                <input type="image" name= 'sun' class= 'cursor' 
-                style= 'width: 50%;'  src="{{url_for('static',filename='Images/sun.png')}}">
-            </input>
+                <img class="cursor"
+                 src="{{url_for('static',filename='Images/sun.png')}}">
+           
         </a>
             </div>
     
             <!-- MERCURY -->
-            <div class= "mercury">
+            <div class= "mercury item">
                 <a href="#open-modal">
-                <input type="image" class= 'cursor' 
-                style= 'width: 10%' src="{{url_for('static',filename='Images/mercury.png')}}">
-                <onclick="hello()">
-                </onclick>
-            </input>
+                <img src="{{url_for('static',filename='Images/mercury.png')}}">
+                
+          
         </a>
             </div>
 
             <!-- VENUS -->
-            <div class= "venus">
+            <div class= "venus item">
                 <a href="#open-modal">
-                <input type="image" class= 'cursor'
-                style= 'width: 20%;'  src="{{url_for('static',filename='Images/venus.png')}}" >
-            </input>
+                <img class="cursor" src="{{url_for('static',filename='Images/venus.png')}}" >
         </a>
             </div>
 
             <!-- EARTH -->
-            <div class= 'earth'>
+            <div class= 'earth item'>
                 <a href="#open-modal">
-                <input type="image" class= 'cursor'
-                style= 'width: 20%;'  src="{{url_for('static',filename='Images/earth.png')}}">
-            </input>
+                <img class="cursor" src="{{url_for('static',filename='Images/earth.png')}}">
+            
         </a>
             </div>
 
             <!-- MARS -->
-            <div class='mars'>
+            <div class='mars item'>
                 <a href="#open-modal">
-                <input type="image" class= 'cursor'
-                style= 'width: 15%;'  src="{{url_for('static',filename='Images/mars.png')}}">
-            </input>
+                <img src="{{url_for('static',filename='Images/mars.png')}}">
+            
         </a>
             </div>
 
             <!-- JUPITER -->
-            <div class= 'jupiter'>
+            <div class= 'jupiter item'>
                 <a href="#open-modal">
-                <input type="image" class= 'cursor'
-                style= 'width: 20%;'  src="{{url_for('static',filename='Images/jupiter.png')}}">
-            </input>
+                <img src="{{url_for('static',filename='Images/jupiter.png')}}">
+            
         </a>
             </div>
 
             <!-- SATURN -->
-            <div class='saturn'>
+            <div class='saturn item'>
                 <a href="#open-modal">
-                <input type="image" class= 'cursor'
-                style= 'width: 15%;'  src="{{url_for('static',filename='Images/saturn.png')}}">
-            </input>
+                <img src="{{url_for('static',filename='Images/saturn.png')}}">
+           
         </a>
             </div>
 
             <!-- URANUS -->
-            <div class='uranus'>
+            <div class='uranus item'>
                 <a href="#open-modal">
-                <input type="image" class= 'cursor'
-                style= 'width: 15%' src="{{url_for('static',filename='Images/uranus.png')}}">
-            </input>
+                <img src="{{url_for('static',filename='Images/uranus.png')}}">
+            
         </a>
             </div>
 
             <!-- NEPTUNE -->
-            <div class='neptune'>
-                <a href="#open-modal"></a>
-                <input type="image" class= 'cursor'
-                style= 'width: 15%;' src="{{url_for('static',filename='Images/neptune.png')}}">
-            </input>
+            <div class='neptune item'>
+                <a href="#open-modal">
+                <img src="{{url_for('static',filename='Images/neptune.png')}}">
+           
         </a>
         </div>
         <!-- </form>  -->

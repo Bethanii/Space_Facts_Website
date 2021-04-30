@@ -16,9 +16,7 @@ body {
   width: 90%;
 }
 
-.sun{
-    
-}
+
 
 .modal-window {
     position: fixed;
@@ -83,11 +81,7 @@ body {
     flex-shrink: 40%;
 }
 
-.cursor {
-    cursor: url('../Images/rocket.cur'), default;
-    width: 10%;
-    width: 10px;
-  }
+
 
 .addspace{
     margin-top: -15%;
@@ -102,58 +96,90 @@ body {
 }
 
 .planet{
-    align-self: baseline;
-    width: 150%;
+    
 }
+img{
+    max-width: 100%;
+}
+
 .item{
-    margin: 33px;
+    flex: 1 0 auto;
+    max-width: 10%;
 }
+
 
 .mercury{
-    margin-left: -8%;
+   
 }
 
-/* 
-.sun {
-    margin-left: -5%;
+
+.asun{
+    
+}
+.asun a img{
+    max-width: 100%;
+}
+
+ .item:hover .cursor{
+    cursor: url('../Images/rocket.cur'), default;
+    /**width: 10%;
+    width: 10px;*/
 }
 
 .venus{
-    width: 100%;
-    margin-left: -5%;
+
+    
+}
+.venus a img{
+    max-width: 70%;
 }
 
 .earth{
-    width: 100%;
-    margin-left: -9%;
+    
+}
+
+.earth a img{
+    max-width: 40%;
 }
 
 .mars{
-    width: 100%;
-    margin-left: 1%;
+   
+}
+.mars a img{
+    max-width: 20%;
 }
 
 .jupiter{
-    width: 110%
+    
+}
+.jupiter a img{
+    max-width: 40%;
 }
 
 .saturn{
-    width: 50%;
+    
 }
-
+.saturn a img{
+    max-width: 60%;
+}
 .neptune{
-    width: 50%;
+    
 }
-
+.nepturne a img{
+    max-width: 50%;
+}
 .mercury{
-    width: 100%;
-    margin-left: 8%;
+ 
 }
-
+.mercury a img{
+    max-width: 40%;
+}
 .uranus{
-    width: 50%;
+    
 }
-
-.output {
-    font: 1rem 'Fira Sans', sans-serif;
-} */
+.uranus a img{
+    max-width: 50%;
+}
+.output{
+   
+} 
