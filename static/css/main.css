@@ -1,41 +1,159 @@
 body {
     background-image: url('../Images/space.png');
-    background-position: fixed;
     background-size: cover;
     background-repeat: no-repeat;
+    cursor: ('../Iamges/rocket.cur');
 }
 
-.solarsystem{
-    display: grid;
-    grid-template-columns: 100px 100px; 
-    grid-template-rows: 100px;
-    grid-column-gap: 5px;
+.container {
+    display: inline-flex;
+    flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: space-aroundS;
+  align-self: baseline;
+  justify-items: space-between;
+  width: 90%;
 }
 
-.sun {
-    margin-top: 175px;
-    margin-left: -05%;
+.sun{
+    
 }
 
-.earth{
-    margin-left: 275px;
-    margin-top: 217px;
+.modal-window {
+    position: fixed;
+    background-color: rgba(200, 200, 200, 0.75);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    opacity: 0;
+    pointer-events: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  
+  .modal-window:target {
+    opacity: 2;
+    pointer-events: auto;
+  }
+  
+  .modal-window>div {
+    width: 40%;
+    height: 30%;
+    position: relative;
+    margin: 10% auto;
+    padding: 2rem;
+    background: #fff;
+    color: #444;
+  }
+  
+  .modal-window header {
+    font-weight: bold;
+  }
+  
+  .modal-close {
+    color: #aaa;
+    line-height: 50px;
+    font-size: 80%;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 70px;
+    text-decoration: none;
+  }
+  
+  .modal-close:hover {
+    color: #000;
+  }
+  
+  .modal-window h1 {
+    font-size: 150%;
+    margin: 0 0 15px;
+  }
+
+.header{
+    text-align: center;
+    margin-top: -9%;
+
+    margin-bottom: 0%;
+    flex-shrink: 40%;
 }
 
-.mars{
-    margin-left: 50px;
+.cursor {
+    cursor: url('../Images/rocket.cur'), default;
+    width: 10%;
+    width: 10px;
+  }
+
+.addspace{
+    margin-top: -15%;
+}
+
+.center{
+    justify-self: baseline;
+}
+.test{
+    width: 150px;
+    height: 150px;
+}
+
+.planet{
+    align-self: baseline;
+    width: 150%;
+}
+.item{
+    margin: 33px;
 }
 
 .mercury{
-    margin-left: 100px;
-    margin-top: 347px;
+    margin-left: -8%;
 }
 
-.uranus{
-    margin-left: 200px;
+/* 
+.sun {
+    margin-left: -5%;
 }
 
 .venus{
-    margin-left: 259px;
-    margin-top: 225px;
+    width: 100%;
+    margin-left: -5%;
 }
+
+.earth{
+    width: 100%;
+    margin-left: -9%;
+}
+
+.mars{
+    width: 100%;
+    margin-left: 1%;
+}
+
+.jupiter{
+    width: 110%
+}
+
+.saturn{
+    width: 50%;
+}
+
+.neptune{
+    width: 50%;
+}
+
+.mercury{
+    width: 100%;
+    margin-left: 8%;
+}
+
+.uranus{
+    width: 50%;
+}
+
+.output {
+    font: 1rem 'Fira Sans', sans-serif;
+} */
