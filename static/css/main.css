@@ -16,8 +16,6 @@ body {
   width: 90%;
 }
 
-
-
 .modal-window {
     position: fixed;
     background-color: rgba(200, 200, 200, 0.75);
@@ -81,23 +79,10 @@ body {
     flex-shrink: 40%;
 }
 
-
-
 .addspace{
-    margin-top: -15%;
+    margin-top: -11%;
 }
 
-.center{
-    justify-self: baseline;
-}
-.test{
-    width: 150px;
-    height: 150px;
-}
-
-.planet{
-    
-}
 img{
     max-width: 100%;
 }
@@ -107,79 +92,52 @@ img{
     max-width: 10%;
 }
 
-
-.mercury{
-   
-}
-
-
-.asun{
-    
-}
-.asun a img{
-    max-width: 100%;
-}
-
- .item:hover .cursor{
+.item:hover .cursor{
     cursor: url('../Images/rocket.cur'), default;
-    /**width: 10%;
-    width: 10px;*/
 }
 
-.venus{
-
-    
+.sun a img{
+    max-width: 698%;
+    margin-left: -375%;
 }
+
 .venus a img{
-    max-width: 70%;
-}
-
-.earth{
-    
+    margin-left: 10%;
+    max-width: 171%;
 }
 
 .earth a img{
-    max-width: 40%;
+    max-width: 200%;
+    margin-left: 21%;
 }
 
-.mars{
-   
-}
 .mars a img{
-    max-width: 20%;
+    max-width: 122%;
+    margin-left: 65%;
 }
 
-.jupiter{
-    
-}
 .jupiter a img{
-    max-width: 40%;
+    max-width: 277%;
+    margin-left: 16%;
 }
 
-.saturn{
-    
-}
 .saturn a img{
-    max-width: 60%;
+    transform: rotate(-13deg);
+    max-width: 248%;
+    margin-left: 104%;
 }
-.neptune{
-    
+
+.neptune a img{
+    max-width: 153%;
+    margin-left: 185%;
 }
-.nepturne a img{
-    max-width: 50%;
-}
-.mercury{
- 
-}
+
 .mercury a img{
-    max-width: 40%;
+    max-width: 59%;
+    margin-left: 70%;
 }
-.uranus{
-    
-}
+
 .uranus a img{
-    max-width: 50%;
+    max-width: 155%;
+    margin-left: 184%;
 }
-.output{
-   
-} 
