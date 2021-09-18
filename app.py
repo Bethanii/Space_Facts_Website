@@ -1,9 +1,14 @@
+# steps to run the app
+# First start your virtual environment (py -m venv venv)
+# -- activate the vm ( venv\Scripts\activate)
+# second make sure flask is installed (flask --version)
+# if not then install it (pip install flask)
+# -- if file name is app.py youre good 
+# -- if not then ($env:FLASK_APP = "fileName")
+# if yes then (flask run)
+
 from flask import Flask, render_template, url_for, request
 app = Flask(__name__)
-
-# Make the WSGI interface available at the top level so wfastcgi can get it.
-wsgi_app = app.wsgi_app
-
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
